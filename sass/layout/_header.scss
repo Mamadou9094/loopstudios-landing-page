@@ -21,13 +21,13 @@ header {
         ul li{
             list-style: none;
             display: inline-block;
-            margin-left: 30px;
+            margin-left: 4%;
 
             a {
                 text-decoration: none;
                 padding: 15px 0px 15px 0px;
                 color: $primary-white;
-                font-size: 13px;
+                font-size: 1rem;
                 cursor: pointer;
             }
         }
@@ -72,11 +72,13 @@ header {
 
         p {
             font-weight: 400;
-            font-size: 60px;
+            font-size: 4rem;
             letter-spacing: 5px;
         }
     }
 }
+
+
 
 
 
