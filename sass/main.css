@@ -1,3 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 3.3rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 2.9rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+header {
+  width: 100%;
+  height: 550px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/desktop/image-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: "Alata", sans-serif;
+  padding: 5% 10% 0 10%;
+  box-sizing: border-box;
+}
+header .navbar {
+  display: flex;
+  align-items: center;
+}
+header nav {
+  flex: 1;
+  text-align: right;
+}
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 4%;
+}
+header nav ul li a {
+  text-decoration: none;
+  padding: 15px 0px 15px 0px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+header nav.stroke ul li a {
+  position: relative;
+}
+header nav.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: white;
+  height: 2px;
+}
+header nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+header nav.stroke ul li a.active:after {
+  width: 100%;
+}
+header nav.stroke ul li a:after, header nav.stroke ul li a :before {
+  transition: all 0.5s;
+}
+header .slogon {
+  position: relative;
+  top: 100px;
+  border: 2px solid white;
+  text-transform: uppercase;
+  width: 53%;
+  padding: 25px;
+  font-family: "Josefin Sans", sans-serif;
+}
+header .slogon p {
+  font-weight: 400;
+  font-size: 4rem;
+  letter-spacing: 5px;
+}
+
+section.section-top {
+  margin: 80px 80px 0px 80px;
+  height: 650px;
+}
+section.section-top #section-top-img {
+  width: 60%;
+  height: 500px;
+}
+section.section-top #section-top-img img {
+  width: 100%;
+  height: 100%;
+}
+section.section-top #section-top-desc {
+  z-index: 1;
+  position: relative;
+  width: 48%;
+  left: 45%;
+  top: -290px;
+  background-color: white;
+  padding: 70px 70px 0 70px;
+}
+section.section-top #section-top-desc p {
+  font-size: 1.4rem;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+section.section-middle {
+  margin: 0px 60px 20px 60px;
+}
+
+section.section-middle div {
+  display: flex;
+  justify-content: space-between;
+}
+
+section.section-middle div a {
+  padding: 10px 20px 10px 20px;
+  border: 1px solid black;
+  text-decoration: none;
+  margin: 10px 20px 20px 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+
+section.section-contain {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.section-contain figure {
+  margin-left: 40px;
+  margin-bottom: 40px;
+  width: 20%;
+  height: 390px;
+  border: 1px solid black;
+}
+
+section.section-contain figure img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(60%);
+}
+
+section.section-contain figure figcaption {
+  position: relative;
+  width: 70%;
+  bottom: 90px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+  padding-left: 25px;
+}
 
 /*# sourceMappingURL=main.css.map */
