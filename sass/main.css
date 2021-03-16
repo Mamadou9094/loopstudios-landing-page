@@ -1,3 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
 
+header {
+  width: 100%;
+  height: 550px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/desktop/image-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: "Alata", sans-serif;
+  padding: 5% 10% 0 10%;
+  box-sizing: border-box;
+}
+header .navbar {
+  display: flex;
+  align-items: center;
+}
+header nav {
+  flex: 1;
+  text-align: right;
+}
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 30px;
+}
+header nav ul li a {
+  text-decoration: none;
+  padding: 15px 0px 15px 0px;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+}
+header nav.stroke ul li a {
+  position: relative;
+}
+header nav.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: white;
+  height: 2px;
+}
+header nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+header nav.stroke ul li a.active:after {
+  width: 100%;
+}
+header nav.stroke ul li a:after, header nav.stroke ul li a :before {
+  transition: all 0.5s;
+}
+header .slogon {
+  position: relative;
+  top: 100px;
+  border: 2px solid white;
+  text-transform: uppercase;
+  width: 53%;
+  padding: 25px;
+  font-family: "Josefin Sans", sans-serif;
+}
+header .slogon p {
+  font-weight: 400;
+  font-size: 60px;
+  letter-spacing: 5px;
+}
 
 /*# sourceMappingURL=main.css.map */
