@@ -124,12 +124,12 @@ section.section-top #section-top-desc {
 }
 section.section-top #section-top-desc p {
   font-size: 1.4rem;
-  line-height: 25px;
+  line-height: 30px;
   font-weight: 400;
 }
 
 section.section-middle {
-  margin: 0px 60px 20px 60px;
+  margin: 0px 80px 20px 80px;
 }
 
 section.section-middle div {
@@ -141,7 +141,7 @@ section.section-middle div a {
   padding: 10px 20px 10px 20px;
   border: 1px solid black;
   text-decoration: none;
-  margin: 10px 20px 20px 40px;
+  margin: 10px 0px 20px 40px;
   text-transform: uppercase;
   letter-spacing: 4px;
   font-weight: 400;
@@ -150,13 +150,13 @@ section.section-middle div a {
 section.section-contain {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 section.section-contain figure {
-  margin-left: 40px;
   margin-bottom: 40px;
-  width: 20%;
-  height: 390px;
+  width: 22.5%;
+  height: 500px;
   border: 1px solid black;
 }
 
@@ -175,6 +175,50 @@ section.section-contain figure figcaption {
   font-size: 30px;
   color: white;
   padding-left: 25px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 3% 8% 3% 8%;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .footer-logo {
+  width: 50%;
+}
+footer .footer-icons {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+footer .footer-icons img {
+  margin: 2%;
+  cursor: pointer;
+}
+footer nav {
+  width: 50%;
+  text-align: left;
+  padding-top: 10px;
+}
+footer nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 2%;
+}
+footer nav ul li a {
+  text-decoration: none;
+  padding: 15px 0px 15px 0px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+footer p {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+  font-size: 0.9rem;
 }
 
 /*# sourceMappingURL=main.css.map */

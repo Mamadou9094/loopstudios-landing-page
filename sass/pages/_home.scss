@@ -24,25 +24,24 @@ section.section-top{
         
         p{
             font-size: 1.4rem;
-            line-height: 25px;
+            line-height: 30px;
             font-weight: 400;
         }
     }
 }
 section.section-middle{
-    margin: 0px 60px 20px 60px;
+    margin: 0px 80px 20px 80px;
 }
 section.section-middle div{
     display: flex;
     justify-content: space-between;
-    
     
 }
 section.section-middle div a{
     padding: 10px 20px 10px 20px;
     border: 1px solid black;
     text-decoration: none;
-    margin: 10px 20px 20px 40px;
+    margin: 10px 0px 20px 40px;
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: 400;
@@ -52,13 +51,14 @@ section.section-middle div a{
 section.section-contain{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     
 }
 section.section-contain figure{
-    margin-left: 40px;
+    
     margin-bottom: 40px;
-    width: 20%;
-    height: 390px;
+    width: 22.5%;
+    height: 500px;
     border: 1px solid black;
 }
 section.section-contain figure img{
