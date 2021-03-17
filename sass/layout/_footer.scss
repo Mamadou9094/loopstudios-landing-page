@@ -1,0 +1,50 @@
+footer{
+    background-color: black;
+    color: white;
+    padding: 3% 8% 3% 8%;
+    display: flex;
+    flex-wrap: wrap;
+
+    & .footer-logo{
+        width: 50%;
+    }
+    & .footer-icons{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+
+        img{
+            margin: 2%;
+            cursor: pointer;
+        }
+    }
+
+    nav {
+        width: 50%;
+        text-align: left;
+        padding-top: 10px;
+
+        ul li{
+            list-style: none;
+            display: inline-block;
+            margin-right: 2%;
+
+            a {
+                text-decoration: none;
+                padding: 15px 0px 15px 0px;
+                color: $primary-white;
+                font-size: 1rem;
+                cursor: pointer;
+            }
+        }
+    }
+    p{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 10px;
+        font-size: 0.9rem;
+    }
+    
+
+}
