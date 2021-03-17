@@ -100,7 +100,7 @@ header {
             z-index: 9;
             left: 0;
             right: 0;
-            top: 100px;
+            top: 0px;
             bottom: 100%;
             width: auto;
             height: auto;
@@ -121,6 +121,7 @@ header {
         }
         nav .icon-burger {
             display: block;
+            z-index: 10;
         }
         nav :checked ~ .icon-burger .line:nth-child(1) {
             transform: translateY(10px) rotate(225deg);
@@ -150,6 +151,7 @@ header {
 
     }
 }
+
 
 @media screen and (max-width: 540px){
     header{

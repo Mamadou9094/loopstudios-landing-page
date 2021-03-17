@@ -48,3 +48,44 @@ footer{
     
 
 }
+
+@media screen and (max-width: 540px){
+    footer{
+       
+        display: flex;
+        flex-wrap: wrap;
+    
+        & .footer-logo{
+            position: relative;
+            left: 25%;
+            width: auto;
+        }
+        & .footer-icons{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+    
+        }
+    
+        nav {
+            width: 100%;
+            text-align: center;
+            padding-top: 10px;
+    
+    
+            ul li{
+                list-style: none;
+                width: 100%;
+                margin-bottom: 3%;
+            }
+        }
+        p{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+           
+        }
+        
+    
+    }
+}
